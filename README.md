@@ -1,3 +1,7 @@
+> **Note:**  
+> This repository is a fork of [SkipToTheEndpoint/OpenIntuneBaseline](https://github.com/SkipToTheEndpoint/OpenIntuneBaseline).  
+> It uses the original baseline with various tweaks and changes to provide more flexibility between security and usability.
+
 # OpenIntuneBaseline
 
 <p align="center">
