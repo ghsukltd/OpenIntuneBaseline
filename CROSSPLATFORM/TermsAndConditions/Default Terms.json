@@ -1,0 +1,29 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/termsAndConditions/$entity",
+    "@odata.type":  "#microsoft.graph.termsAndConditions",
+    "@odata.id":  "deviceManagement/termsAndConditions(\u00270c5a3927-5035-48e5-a746-1acb0daf1e35\u0027)",
+    "@odata.editLink":  "deviceManagement/termsAndConditions(\u00270c5a3927-5035-48e5-a746-1acb0daf1e35\u0027)",
+    "id":  "0c5a3927-5035-48e5-a746-1acb0daf1e35",
+    "createdDateTime@odata.type":  "#DateTimeOffset",
+    "createdDateTime":  "2024-11-01T09:12:56.5573493Z",
+    "modifiedDateTime@odata.type":  "#DateTimeOffset",
+    "modifiedDateTime":  "2024-11-01T09:12:56.5573493Z",
+    "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
+    "lastModifiedDateTime":  "2024-11-01T09:12:56.5573493Z",
+    "displayName":  "Default Terms",
+    "description":  "",
+    "title":  "\u003cCompany Name\u003e Terms",
+    "bodyText":  "I acknowledge that by enrolling my device, \u003cCompany Name\u003e administrators will have certain types of control. This includes visibility into corporate apps inventory, email usage, and device risk. I further agree to keep company resources safe to the best if my ability and inform Company administrator as soon as I believe my device to be lost or stolen.",
+    "acceptanceStatement":  "By enrolling your device, you\u0027re agreeing to the terms of use set out by \u003cCompany Name\u003e. Read the terms carefully before proceeding.",
+    "version":  1,
+    "roleScopeTagIds@odata.type":  "#Collection(String)",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "acceptanceStatuses@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/termsAndConditions(\u00270c5a3927-5035-48e5-a746-1acb0daf1e35\u0027)/acceptanceStatuses/$ref",
+    "acceptanceStatuses@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/termsAndConditions(\u00270c5a3927-5035-48e5-a746-1acb0daf1e35\u0027)/acceptanceStatuses",
+    "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/termsAndConditions(\u00270c5a3927-5035-48e5-a746-1acb0daf1e35\u0027)/assignments/$ref",
+    "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/termsAndConditions(\u00270c5a3927-5035-48e5-a746-1acb0daf1e35\u0027)/assignments",
+    "groupAssignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/termsAndConditions(\u00270c5a3927-5035-48e5-a746-1acb0daf1e35\u0027)/groupAssignments/$ref",
+    "groupAssignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/termsAndConditions(\u00270c5a3927-5035-48e5-a746-1acb0daf1e35\u0027)/groupAssignments"
+}

@@ -1,0 +1,96 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/targetedManagedAppConfigurations(assignments(),apps(),settings())/$entity",
+    "@odata.type":  "#microsoft.graph.targetedManagedAppConfiguration",
+    "@odata.id":  "deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)",
+    "@odata.editLink":  "deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)",
+    "displayName":  "Multi - GHS - Microsoft Outlook - D - Configuration - v1.0",
+    "description":  "",
+    "createdDateTime@odata.type":  "#DateTimeOffset",
+    "createdDateTime":  "2024-10-31T15:12:51.9410593Z",
+    "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
+    "lastModifiedDateTime":  "2024-11-01T09:38:22Z",
+    "roleScopeTagIds@odata.type":  "#Collection(String)",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "id":  "A_05e0a095-dd64-431a-97ac-4e2d14816b63",
+    "version":  "\"d2001211-0000-0d00-0000-6724a18e0000\"",
+    "deployedAppCount":  2,
+    "isAssigned":  false,
+    "targetedAppManagementLevels@odata.type":  "#microsoft.graph.appManagementLevel",
+    "targetedAppManagementLevels":  "unspecified",
+    "appGroupType@odata.type":  "#microsoft.graph.targetedManagedAppGroupType",
+    "appGroupType":  "selectedPublicApps",
+    "customSettings@odata.type":  "#Collection(microsoft.graph.keyValuePair)",
+    "customSettings":  [
+                           {
+                               "@odata.type":  "#microsoft.graph.keyValuePair",
+                               "name":  "com.microsoft.outlook.Mail.DefaultSignatureEnabled",
+                               "value":  "false"
+                           },
+                           {
+                               "@odata.type":  "#microsoft.graph.keyValuePair",
+                               "name":  "com.microsoft.outlook.Mail.ExternalRecipientsToolTipEnabled",
+                               "value":  "true"
+                           }
+                       ],
+    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/assignments",
+    "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/assignments/$ref",
+    "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/assignments",
+    "assignments":  [
+
+                    ],
+    "apps@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/apps",
+    "apps@odata.associationLink":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/apps/$ref",
+    "apps@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/apps",
+    "apps":  [
+                 {
+                     "@odata.type":  "#microsoft.graph.managedMobileApp",
+                     "@odata.id":  "deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/apps(\u0027com.microsoft.office.outlook.android\u0027)",
+                     "@odata.editLink":  "deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/apps(\u0027com.microsoft.office.outlook.android\u0027)",
+                     "id":  "com.microsoft.office.outlook.android",
+                     "version":  "1146701235",
+                     "mobileAppIdentifier":  {
+                                                 "@odata.type":  "#microsoft.graph.androidMobileAppIdentifier",
+                                                 "packageId":  "com.microsoft.office.outlook"
+                                             }
+                 },
+                 {
+                     "@odata.type":  "#microsoft.graph.managedMobileApp",
+                     "@odata.id":  "deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/apps(\u0027com.microsoft.office.outlook.ios\u0027)",
+                     "@odata.editLink":  "deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/apps(\u0027com.microsoft.office.outlook.ios\u0027)",
+                     "id":  "com.microsoft.office.outlook.ios",
+                     "version":  "-518090279",
+                     "mobileAppIdentifier":  {
+                                                 "@odata.type":  "#microsoft.graph.iosMobileAppIdentifier",
+                                                 "bundleId":  "com.microsoft.office.outlook"
+                                             }
+                 }
+             ],
+    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/settings",
+    "settings@odata.associationLink":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/settings/$ref",
+    "settings@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/settings",
+    "settings":  [
+
+                 ],
+    "deploymentSummary@odata.associationLink":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/deploymentSummary/$ref",
+    "deploymentSummary@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/deploymentSummary",
+    "#microsoft.graph.assign":  {
+                                    "title":  "microsoft.graph.assign",
+                                    "target":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/microsoft.graph.assign"
+                                },
+    "#microsoft.graph.changeSettings":  {
+                                            "title":  "microsoft.graph.changeSettings",
+                                            "target":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/microsoft.graph.changeSettings"
+                                        },
+    "#microsoft.graph.targetApps":  [
+                                        {
+                                            "title":  "microsoft.graph.targetApps",
+                                            "target":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/microsoft.graph.targetApps"
+                                        },
+                                        {
+                                            "title":  "microsoft.graph.targetApps",
+                                            "target":  "https://graph.microsoft.com/beta/deviceAppManagement/targetedManagedAppConfigurations(\u0027A_05e0a095-dd64-431a-97ac-4e2d14816b63\u0027)/microsoft.graph.managedAppPolicy/microsoft.graph.targetApps"
+                                        }
+                                    ]
+}

@@ -1,2 +1,4 @@
-/**/IntuneManagement/**/* diff working-tree-encoding=UTF-16LE-BOM eol=CRLF
+/**/IntuneManagement/**/*.json diff working-tree-encoding=UTF-16LE-BOM eol=CRLF
+/CROSSPLATFORM/**/*.json diff working-tree-encoding=UTF-16LE-BOM eol=CRLF
+/BYOD/**/*.json diff working-tree-encoding=UTF-16LE-BOM eol=CRLF
 /**/NativeImport/*.json diff working-tree-encoding=UTF-8 eol=CRLF

@@ -1,0 +1,166 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+    "@odata.type":  "#microsoft.graph.deviceManagementConfigurationPolicy",
+    "@odata.id":  "deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)",
+    "@odata.editLink":  "deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)",
+    "createdDateTime@odata.type":  "#DateTimeOffset",
+    "createdDateTime":  "2024-11-01T13:09:48.8074794Z",
+    "creationSource":  null,
+    "description":  "",
+    "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
+    "lastModifiedDateTime":  "2024-11-01T13:09:48.8074794Z",
+    "name":  "Win - GHS - SC - Group Membership - D - Administrators - v1.0",
+    "platforms@odata.type":  "#microsoft.graph.deviceManagementConfigurationPlatforms",
+    "platforms":  "windows10",
+    "priorityMetaData":  null,
+    "roleScopeTagIds@odata.type":  "#Collection(String)",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "settingCount":  1,
+    "technologies@odata.type":  "#microsoft.graph.deviceManagementConfigurationTechnologies",
+    "technologies":  "mdm",
+    "id":  "2c6c564a-9d12-4d62-bf03-faaa67bf0712",
+    "templateReference":  {
+                              "@odata.type":  "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+                              "templateId":  "22968f54-45fa-486c-848e-f8224aa69772_1",
+                              "templateFamily@odata.type":  "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+                              "templateFamily":  "endpointSecurityAccountProtection",
+                              "templateDisplayName":  "Local user group membership",
+                              "templateDisplayVersion":  "Version 1"
+                          },
+    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/assignments",
+    "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/assignments/$ref",
+    "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/assignments",
+    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/settings",
+    "settings@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/settings/$ref",
+    "settings@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/settings",
+    "settings":  [
+                     {
+                         "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSetting",
+                         "@odata.id":  "deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/settings(\u00270\u0027)",
+                         "@odata.editLink":  "deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/settings(\u00270\u0027)",
+                         "id":  "0",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_localusersandgroups_configure",
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSettingInstanceTemplateReference",
+                                                                                          "settingInstanceTemplateId":  "de06bec1-4852-48a0-9799-cf7b85992d45"
+                                                                                      },
+                                                 "groupSettingCollectionValue@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationGroupSettingValue)",
+                                                 "groupSettingCollectionValue":  [
+                                                                                     {
+                                                                                         "@odata.type":  "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+                                                                                         "settingValueTemplateReference":  null,
+                                                                                         "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                                                                                         "children":  [
+                                                                                                          {
+                                                                                                              "@odata.type":  "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+                                                                                                              "settingDefinitionId":  "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup",
+                                                                                                              "settingInstanceTemplateReference":  null,
+                                                                                                              "groupSettingCollectionValue@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationGroupSettingValue)",
+                                                                                                              "groupSettingCollectionValue":  [
+                                                                                                                                                  {
+                                                                                                                                                      "@odata.type":  "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+                                                                                                                                                      "settingValueTemplateReference":  null,
+                                                                                                                                                      "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                                                                                                                                                      "children":  [
+                                                                                                                                                                       {
+                                                                                                                                                                           "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingCollectionInstance",
+                                                                                                                                                                           "settingDefinitionId":  "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc",
+                                                                                                                                                                           "settingInstanceTemplateReference":  null,
+                                                                                                                                                                           "choiceSettingCollectionValue@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationChoiceSettingValue)",
+                                                                                                                                                                           "choiceSettingCollectionValue":  [
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                    "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                                                                                                                                                                                                                    "settingValueTemplateReference":  null,
+                                                                                                                                                                                                                    "value":  "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_desc_administrators",
+                                                                                                                                                                                                                    "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                                                                                                                                                                                                                    "children":  [
+
+                                                                                                                                                                                                                                 ]
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            ]
+                                                                                                                                                                       },
+                                                                                                                                                                       {
+                                                                                                                                                                           "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                                                                                                                                           "settingDefinitionId":  "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action",
+                                                                                                                                                                           "settingInstanceTemplateReference":  null,
+                                                                                                                                                                           "choiceSettingValue":  {
+                                                                                                                                                                                                      "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                                                                                                                                                                                                      "settingValueTemplateReference":  null,
+                                                                                                                                                                                                      "value":  "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_action_add_restrict",
+                                                                                                                                                                                                      "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                                                                                                                                                                                                      "children":  [
+
+                                                                                                                                                                                                                   ]
+                                                                                                                                                                                                  }
+                                                                                                                                                                       },
+                                                                                                                                                                       {
+                                                                                                                                                                           "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                                                                                                                                           "settingDefinitionId":  "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype",
+                                                                                                                                                                           "settingInstanceTemplateReference":  null,
+                                                                                                                                                                           "choiceSettingValue":  {
+                                                                                                                                                                                                      "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                                                                                                                                                                                                      "settingValueTemplateReference":  null,
+                                                                                                                                                                                                      "value":  "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_userselectiontype_users",
+                                                                                                                                                                                                      "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                                                                                                                                                                                                      "children":  [
+                                                                                                                                                                                                                       {
+                                                                                                                                                                                                                           "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+                                                                                                                                                                                                                           "settingDefinitionId":  "device_vendor_msft_policy_config_localusersandgroups_configure_groupconfiguration_accessgroup_users",
+                                                                                                                                                                                                                           "settingInstanceTemplateReference":  null,
+                                                                                                                                                                                                                           "simpleSettingCollectionValue@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSimpleSettingValue)",
+                                                                                                                                                                                                                           "simpleSettingCollectionValue":  [
+                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                    "@odata.type":  "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                                                                                                                                                                                                                                                                    "settingValueTemplateReference":  null,
+                                                                                                                                                                                                                                                                    "value":  "AzureAD\\admin@M365x96514142.onmicrosoft.com"
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                            ]
+                                                                                                                                                                                                                       }
+                                                                                                                                                                                                                   ]
+                                                                                                                                                                                                  }
+                                                                                                                                                                       }
+                                                                                                                                                                   ]
+                                                                                                                                                  }
+                                                                                                                                              ]
+                                                                                                          }
+                                                                                                      ]
+                                                                                     }
+                                                                                 ]
+                                             },
+                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/settings(\u00270\u0027)/settingDefinitions/$ref",
+                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/settings(\u00270\u0027)/settingDefinitions"
+                     }
+                 ],
+    "#microsoft.graph.assign":  {
+                                    "title":  "microsoft.graph.assign",
+                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/microsoft.graph.assign"
+                                },
+    "#microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget":  {
+                                                                       "title":  "microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget",
+                                                                       "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget"
+                                                                   },
+    "#microsoft.graph.createCopy":  {
+                                        "title":  "microsoft.graph.createCopy",
+                                        "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/microsoft.graph.createCopy"
+                                    },
+    "#microsoft.graph.reorder":  {
+                                     "title":  "microsoft.graph.reorder",
+                                     "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/microsoft.graph.reorder"
+                                 },
+    "#microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget":  {
+                                                                          "title":  "microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget",
+                                                                          "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget"
+                                                                      },
+    "#microsoft.graph.setEnrollmentTimeDeviceMembershipTarget":  {
+                                                                     "title":  "microsoft.graph.setEnrollmentTimeDeviceMembershipTarget",
+                                                                     "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/microsoft.graph.setEnrollmentTimeDeviceMembershipTarget"
+                                                                 },
+    "#microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy":  {
+                                                                        "title":  "microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy",
+                                                                        "target":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u00272c6c564a-9d12-4d62-bf03-faaa67bf0712\u0027)/microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy"
+                                                                    }
+}

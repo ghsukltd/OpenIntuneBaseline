@@ -1,0 +1,39 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/notificationMessageTemplates(localizedNotificationMessages())/$entity",
+    "@odata.type":  "#microsoft.graph.notificationMessageTemplate",
+    "@odata.id":  "deviceManagement/notificationMessageTemplates(\u002746a832ab-df1a-422d-b79c-0dd460085215\u0027)",
+    "@odata.editLink":  "deviceManagement/notificationMessageTemplates(\u002746a832ab-df1a-422d-b79c-0dd460085215\u0027)",
+    "id":  "46a832ab-df1a-422d-b79c-0dd460085215",
+    "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
+    "lastModifiedDateTime":  "2024-10-31T15:41:33Z",
+    "displayName":  "Noncompliance Notification",
+    "description":  null,
+    "defaultLocale":  "en-gb",
+    "brandingOptions@odata.type":  "#microsoft.graph.notificationTemplateBrandingOptions",
+    "brandingOptions":  "includeCompanyLogo,includeCompanyName,includeContactInformation",
+    "roleScopeTagIds@odata.type":  "#Collection(String)",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "localizedNotificationMessages@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/notificationMessageTemplates(\u002746a832ab-df1a-422d-b79c-0dd460085215\u0027)/localizedNotificationMessages",
+    "localizedNotificationMessages@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/notificationMessageTemplates(\u002746a832ab-df1a-422d-b79c-0dd460085215\u0027)/localizedNotificationMessages/$ref",
+    "localizedNotificationMessages@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/notificationMessageTemplates(\u002746a832ab-df1a-422d-b79c-0dd460085215\u0027)/localizedNotificationMessages",
+    "localizedNotificationMessages":  [
+                                          {
+                                              "@odata.type":  "#microsoft.graph.localizedNotificationMessage",
+                                              "@odata.id":  "deviceManagement/notificationMessageTemplates(\u002746a832ab-df1a-422d-b79c-0dd460085215\u0027)/localizedNotificationMessages(\u002746a832ab-df1a-422d-b79c-0dd460085215_en-gb\u0027)",
+                                              "@odata.editLink":  "deviceManagement/notificationMessageTemplates(\u002746a832ab-df1a-422d-b79c-0dd460085215\u0027)/localizedNotificationMessages(\u002746a832ab-df1a-422d-b79c-0dd460085215_en-gb\u0027)",
+                                              "id":  "46a832ab-df1a-422d-b79c-0dd460085215_en-gb",
+                                              "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
+                                              "lastModifiedDateTime":  "2024-11-01T14:40:04.0391946Z",
+                                              "locale":  "en-gb",
+                                              "subject":  "Your Device is Noncompliant",
+                                              "messageTemplate":  "Hi\r\n\r\nYour device is currently non-compliant. Please contact your helpdesk for further information.",
+                                              "isDefault":  true
+                                          }
+                                      ],
+    "#microsoft.graph.sendTestMessage":  {
+                                             "title":  "microsoft.graph.sendTestMessage",
+                                             "target":  "https://graph.microsoft.com/beta/deviceManagement/notificationMessageTemplates(\u002746a832ab-df1a-422d-b79c-0dd460085215\u0027)/microsoft.graph.sendTestMessage"
+                                         }
+}

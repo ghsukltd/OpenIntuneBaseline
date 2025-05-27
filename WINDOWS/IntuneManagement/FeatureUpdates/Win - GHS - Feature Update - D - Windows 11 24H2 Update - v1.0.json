@@ -1,0 +1,36 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsFeatureUpdateProfiles(assignments())/$entity",
+    "@odata.type":  "#microsoft.graph.windowsFeatureUpdateProfile",
+    "@odata.id":  "deviceManagement/windowsFeatureUpdateProfiles(\u00278af3a70c-ac5f-45be-a825-4b41b1329298\u0027)",
+    "@odata.editLink":  "deviceManagement/windowsFeatureUpdateProfiles(\u00278af3a70c-ac5f-45be-a825-4b41b1329298\u0027)",
+    "id":  "8af3a70c-ac5f-45be-a825-4b41b1329298",
+    "displayName":  "Win - GHS - Feature Update - D - Windows 11 24H2 Update - v1.0",
+    "description":  "",
+    "featureUpdateVersion":  "Windows 11, version 24H2",
+    "createdDateTime@odata.type":  "#DateTimeOffset",
+    "createdDateTime":  "2024-10-31T14:47:03.8000769Z",
+    "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
+    "lastModifiedDateTime":  "2024-11-01T10:01:20.6007932Z",
+    "roleScopeTagIds@odata.type":  "#Collection(String)",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "deployableContentDisplayName":  "Windows 11, version 24H2",
+    "endOfSupportDate@odata.type":  "#DateTimeOffset",
+    "endOfSupportDate":  "2034-10-01T00:00:00Z",
+    "installLatestWindows10OnWindows11IneligibleDevice":  true,
+    "installFeatureUpdatesOptional":  false,
+    "rolloutSettings":  {
+                            "@odata.type":  "#microsoft.graph.windowsUpdateRolloutSettings",
+                            "offerStartDateTimeInUTC":  null,
+                            "offerEndDateTimeInUTC":  null,
+                            "offerIntervalInDays":  null
+                        },
+    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsFeatureUpdateProfiles(\u00278af3a70c-ac5f-45be-a825-4b41b1329298\u0027)/assignments",
+    "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/windowsFeatureUpdateProfiles(\u00278af3a70c-ac5f-45be-a825-4b41b1329298\u0027)/assignments/$ref",
+    "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/windowsFeatureUpdateProfiles(\u00278af3a70c-ac5f-45be-a825-4b41b1329298\u0027)/assignments",
+    "#microsoft.graph.assign":  {
+                                    "title":  "microsoft.graph.assign",
+                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/windowsFeatureUpdateProfiles(\u00278af3a70c-ac5f-45be-a825-4b41b1329298\u0027)/microsoft.graph.assign"
+                                }
+}

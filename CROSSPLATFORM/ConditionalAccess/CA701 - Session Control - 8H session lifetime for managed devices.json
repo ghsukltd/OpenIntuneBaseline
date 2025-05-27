@@ -1,0 +1,131 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+    "@odata.type":  "#microsoft.graph.conditionalAccessPolicy",
+    "@odata.id":  "identity/conditionalAccess/policies(\u0027c3c6dfc9-df5a-485f-8d80-279c895324ca\u0027)",
+    "@odata.editLink":  "identity/conditionalAccess/policies(\u0027c3c6dfc9-df5a-485f-8d80-279c895324ca\u0027)",
+    "id":  "c3c6dfc9-df5a-485f-8d80-279c895324ca",
+    "templateId":  null,
+    "displayName":  "CA701 - Session Control - 8H session lifetime for managed devices",
+    "createdDateTime@odata.type":  "#DateTimeOffset",
+    "createdDateTime":  "2024-11-01T19:36:46.5182989Z",
+    "modifiedDateTime@odata.type":  "#DateTimeOffset",
+    "modifiedDateTime":  "2024-11-04T15:18:40.624566Z",
+    "state@odata.type":  "#microsoft.graph.conditionalAccessPolicyState",
+    "state":  "disabled",
+    "grantControls":  null,
+    "partialEnablementStrategy":  null,
+    "conditions":  {
+                       "@odata.type":  "#microsoft.graph.conditionalAccessConditionSet",
+                       "userRiskLevels@odata.type":  "#Collection(microsoft.graph.riskLevel)",
+                       "userRiskLevels":  [
+
+                                          ],
+                       "signInRiskLevels@odata.type":  "#Collection(microsoft.graph.riskLevel)",
+                       "signInRiskLevels":  [
+
+                                            ],
+                       "clientAppTypes@odata.type":  "#Collection(microsoft.graph.conditionalAccessClientApp)",
+                       "clientAppTypes":  [
+                                              "all"
+                                          ],
+                       "platforms":  null,
+                       "locations":  null,
+                       "times":  null,
+                       "deviceStates":  null,
+                       "clientApplications":  null,
+                       "applications":  {
+                                            "@odata.type":  "#microsoft.graph.conditionalAccessApplications",
+                                            "includeApplications@odata.type":  "#Collection(String)",
+                                            "includeApplications":  [
+                                                                        "All"
+                                                                    ],
+                                            "excludeApplications@odata.type":  "#Collection(String)",
+                                            "excludeApplications":  [
+
+                                                                    ],
+                                            "includeUserActions@odata.type":  "#Collection(String)",
+                                            "includeUserActions":  [
+
+                                                                   ],
+                                            "includeAuthenticationContextClassReferences@odata.type":  "#Collection(String)",
+                                            "includeAuthenticationContextClassReferences":  [
+
+                                                                                            ],
+                                            "applicationFilter":  null
+                                        },
+                       "users":  {
+                                     "@odata.type":  "#microsoft.graph.conditionalAccessUsers",
+                                     "includeUsers@odata.type":  "#Collection(String)",
+                                     "includeUsers":  [
+                                                          "All"
+                                                      ],
+                                     "excludeUsers@odata.type":  "#Collection(String)",
+                                     "excludeUsers":  [
+
+                                                      ],
+                                     "includeGroups@odata.type":  "#Collection(String)",
+                                     "includeGroups":  [
+
+                                                       ],
+                                     "excludeGroups@odata.type":  "#Collection(String)",
+                                     "excludeGroups":  [
+
+                                                       ],
+                                     "includeRoles@odata.type":  "#Collection(String)",
+                                     "includeRoles":  [
+
+                                                      ],
+                                     "excludeRoles@odata.type":  "#Collection(String)",
+                                     "excludeRoles":  [
+
+                                                      ],
+                                     "includeGuestsOrExternalUsers":  null,
+                                     "excludeGuestsOrExternalUsers":  null
+                                 },
+                       "devices":  {
+                                       "@odata.type":  "#microsoft.graph.conditionalAccessDevices",
+                                       "includeDeviceStates@odata.type":  "#Collection(String)",
+                                       "includeDeviceStates":  [
+
+                                                               ],
+                                       "excludeDeviceStates@odata.type":  "#Collection(String)",
+                                       "excludeDeviceStates":  [
+
+                                                               ],
+                                       "includeDevices@odata.type":  "#Collection(String)",
+                                       "includeDevices":  [
+
+                                                          ],
+                                       "excludeDevices@odata.type":  "#Collection(String)",
+                                       "excludeDevices":  [
+
+                                                          ],
+                                       "deviceFilter":  {
+                                                            "@odata.type":  "#microsoft.graph.conditionalAccessFilter",
+                                                            "mode@odata.type":  "#microsoft.graph.filterMode",
+                                                            "mode":  "include",
+                                                            "rule":  "device.deviceOwnership -eq \"Company\""
+                                                        }
+                                   }
+                   },
+    "sessionControls":  {
+                            "@odata.type":  "#microsoft.graph.conditionalAccessSessionControls",
+                            "disableResilienceDefaults":  null,
+                            "applicationEnforcedRestrictions":  null,
+                            "cloudAppSecurity":  null,
+                            "persistentBrowser":  null,
+                            "continuousAccessEvaluation":  null,
+                            "secureSignInSession":  null,
+                            "signInFrequency":  {
+                                                    "@odata.type":  "#microsoft.graph.signInFrequencySessionControl",
+                                                    "value":  8,
+                                                    "type@odata.type":  "#microsoft.graph.signinFrequencyType",
+                                                    "type":  "hours",
+                                                    "authenticationType@odata.type":  "#microsoft.graph.signInFrequencyAuthenticationType",
+                                                    "authenticationType":  "primaryAndSecondaryAuthentication",
+                                                    "frequencyInterval@odata.type":  "#microsoft.graph.signInFrequencyInterval",
+                                                    "frequencyInterval":  "timeBased",
+                                                    "isEnabled":  true
+                                                }
+                        }
+}

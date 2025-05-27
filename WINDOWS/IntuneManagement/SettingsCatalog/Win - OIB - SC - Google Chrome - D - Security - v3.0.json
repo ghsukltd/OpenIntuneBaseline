@@ -6,10 +6,10 @@
     "createdDateTime@odata.type":  "#DateTimeOffset",
     "createdDateTime":  "2023-08-09T15:01:31.4711247Z",
     "creationSource":  null,
-    "description":  "Maintaining a level of parity between Edge and Chrome is difficult, and the OIB Chrome policies were (on purpose) very 'Anti Chrome'. My focus will be to ensure the best set of policies for Edge moving forward, and dropping the Chrome policies. It is my opinion that Edge should be the primary and only browser available in an enterprise environment, and continued efforts by Microsoft to improve the security and managability of Edge for Business backs this up. My recommendation is to use the Edge Management Service to Block other Browsers(https://learn.microsoft.com/en-us/deployedge/microsoft-edge-management-service-customizations#block-other-browsers) which creates and deploys an AppLocker policy to block the installation or execution of other browsers on corporate devices.",
+    "description":  "",
     "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
     "lastModifiedDateTime":  "2024-12-05T20:09:18.070481Z",
-    "name":  "Win - OIB - SC - Google Chrome - D - Security - v3.0 (Deprecated)",
+    "name":  "Win - OIB - SC - Google Chrome - D - Security - v3.0",
     "platforms@odata.type":  "#microsoft.graph.deviceManagementConfigurationPlatforms",
     "platforms":  "windows10",
     "priorityMetaData":  null,
@@ -17,7 +17,7 @@
     "roleScopeTagIds":  [
                             "0"
                         ],
-    "settingCount":  49,
+    "settingCount":  48,
     "technologies@odata.type":  "#microsoft.graph.deviceManagementConfigurationTechnologies",
     "technologies":  "mdm",
     "id":  "dd168bb8-53f9-4fa7-a6a5-de6eda3031e6",
@@ -1028,12 +1028,12 @@
                          "id":  "41",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~passwordmanager_passwordmanagerenabled",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremoteaccessconnections",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~passwordmanager_passwordmanagerenabled_0",
+                                                                            "value":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremoteaccessconnections_0",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -1050,12 +1050,12 @@
                          "id":  "42",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremoteaccessconnections",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremotesupportconnections",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremoteaccessconnections_0",
+                                                                            "value":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremotesupportconnections_0",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -1070,28 +1070,6 @@
                          "@odata.id":  "deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002743\u0027)",
                          "@odata.editLink":  "deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002743\u0027)",
                          "id":  "43",
-                         "settingInstance":  {
-                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremotesupportconnections",
-                                                 "settingInstanceTemplateReference":  null,
-                                                 "choiceSettingValue":  {
-                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
-                                                                            "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremotesupportconnections_0",
-                                                                            "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
-                                                                            "children":  [
-
-                                                                                         ]
-                                                                        }
-                                             },
-                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002743\u0027)/settingDefinitions/$ref",
-                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002743\u0027)/settingDefinitions"
-                     },
-                     {
-                         "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSetting",
-                         "@odata.id":  "deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002744\u0027)",
-                         "@odata.editLink":  "deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002744\u0027)",
-                         "id":  "44",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
                                                  "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingprotectionlevel",
@@ -1119,6 +1097,28 @@
                                                                                          ]
                                                                         }
                                              },
+                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002743\u0027)/settingDefinitions/$ref",
+                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002743\u0027)/settingDefinitions"
+                     },
+                     {
+                         "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSetting",
+                         "@odata.id":  "deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002744\u0027)",
+                         "@odata.editLink":  "deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002744\u0027)",
+                         "id":  "44",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_defaultbrowsersettingenabled",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_defaultbrowsersettingenabled_0",
+                                                                            "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             },
                          "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002744\u0027)/settingDefinitions/$ref",
                          "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002744\u0027)/settingDefinitions"
                      },
@@ -1129,12 +1129,12 @@
                          "id":  "45",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_defaultbrowsersettingenabled",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_showappsshortcutinbookmarkbar",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_defaultbrowsersettingenabled_0",
+                                                                            "value":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_showappsshortcutinbookmarkbar_0",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -1151,12 +1151,12 @@
                          "id":  "46",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_showappsshortcutinbookmarkbar",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_lookalikewarningallowlistdomains",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
                                                                             "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
                                                                             "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_showappsshortcutinbookmarkbar_0",
+                                                                            "value":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_lookalikewarningallowlistdomains_0",
                                                                             "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
                                                                             "children":  [
 
@@ -1173,28 +1173,6 @@
                          "id":  "47",
                          "settingInstance":  {
                                                  "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
-                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_lookalikewarningallowlistdomains",
-                                                 "settingInstanceTemplateReference":  null,
-                                                 "choiceSettingValue":  {
-                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
-                                                                            "settingValueTemplateReference":  null,
-                                                                            "value":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_lookalikewarningallowlistdomains_0",
-                                                                            "children@odata.type":  "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
-                                                                            "children":  [
-
-                                                                                         ]
-                                                                        }
-                                             },
-                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002747\u0027)/settingDefinitions/$ref",
-                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002747\u0027)/settingDefinitions"
-                     },
-                     {
-                         "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSetting",
-                         "@odata.id":  "deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002748\u0027)",
-                         "@odata.editLink":  "deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002748\u0027)",
-                         "id":  "48",
-                         "settingInstance":  {
-                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
                                                  "settingDefinitionId":  "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_suppressunsupportedoswarning",
                                                  "settingInstanceTemplateReference":  null,
                                                  "choiceSettingValue":  {
@@ -1207,8 +1185,8 @@
                                                                                          ]
                                                                         }
                                              },
-                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002748\u0027)/settingDefinitions/$ref",
-                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002748\u0027)/settingDefinitions"
+                         "settingDefinitions@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002747\u0027)/settingDefinitions/$ref",
+                         "settingDefinitions@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies(\u0027dd168bb8-53f9-4fa7-a6a5-de6eda3031e6\u0027)/settings(\u002747\u0027)/settingDefinitions"
                      }
                  ],
     "#microsoft.graph.assign":  {
