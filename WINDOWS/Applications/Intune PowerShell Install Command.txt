@@ -1,1 +1,0 @@
-%WINDIR%\SysNative\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\file.ps1

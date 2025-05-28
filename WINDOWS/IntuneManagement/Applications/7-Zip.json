@@ -1,0 +1,123 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps(categories(),assignments())/$entity",
+    "@odata.type":  "#microsoft.graph.win32LobApp",
+    "id":  "1cb1bbd5-bc61-4b91-96f4-c7e4aaa03cfc",
+    "displayName":  "7-Zip",
+    "description":  "7-Zip is a free and open-source file archiver, a utility used to place groups of files within compressed containers known as \"archives\". It is developed by Igor Pavlov and was first released in 1999. 7-Zip has its own archive format called 7z introduced in 2001, but can read and write several others.",
+    "publisher":  "Igor Pavlov",
+    "createdDateTime":  "2025-05-28T10:06:07.6461091Z",
+    "lastModifiedDateTime":  "2025-05-28T10:06:07.6461091Z",
+    "isFeatured":  false,
+    "privacyInformationUrl":  "https://www.7-zip.org/support.html",
+    "informationUrl":  "https://www.7-zip.org/",
+    "owner":  "Igor Pavlov",
+    "developer":  "Igor Pavlov",
+    "notes":  "",
+    "uploadState":  1,
+    "publishingState":  "published",
+    "isAssigned":  false,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "dependentAppCount":  0,
+    "supersedingAppCount":  0,
+    "supersededAppCount":  0,
+    "committedContentVersion":  "1",
+    "fileName":  "Winget_7.zip_v1.0.intunewin",
+    "size":  5872,
+    "installCommandLine":  "%WINDIR%\\SysNative\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\Install.ps1",
+    "uninstallCommandLine":  "%WINDIR%\\SysNative\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\Uninstall.ps1",
+    "applicableArchitectures":  "x86,x64",
+    "allowedArchitectures":  null,
+    "minimumFreeDiskSpaceInMB":  6,
+    "minimumMemoryInMB":  1024,
+    "minimumNumberOfProcessors":  null,
+    "minimumCpuSpeedInMHz":  null,
+    "msiInformation":  null,
+    "setupFilePath":  "Install.ps1",
+    "minimumSupportedWindowsRelease":  "1607",
+    "displayVersion":  "Winget",
+    "allowAvailableUninstall":  true,
+    "largeIcon":  {
+                      "type":  "image/png",
+                      "value":  "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"
+                  },
+    "minimumSupportedOperatingSystem":  {
+                                            "v8_0":  false,
+                                            "v8_1":  false,
+                                            "v10_0":  false,
+                                            "v10_1607":  true,
+                                            "v10_1703":  false,
+                                            "v10_1709":  false,
+                                            "v10_1803":  false,
+                                            "v10_1809":  false,
+                                            "v10_1903":  false,
+                                            "v10_1909":  false,
+                                            "v10_2004":  false,
+                                            "v10_2H20":  false,
+                                            "v10_21H1":  false
+                                        },
+    "detectionRules":  [
+                           {
+                               "@odata.type":  "#microsoft.graph.win32LobAppPowerShellScriptDetection",
+                               "enforceSignatureCheck":  false,
+                               "runAs32Bit":  false,
+                               "scriptContent":  "IyMgUmV2aWV3ZWQgMjAvMDIvMjAyNQojIyBWZXJzaW9uIDEuMAojIyBUZW1wbGF0ZSBSZXZpc2lvbiAxLjAKCgojLS0tLS0tLS0tLSBDb21tb24gU2NyaXB0IFZhcmlhYmxlcyAtLS0tLS0tLS0tIwokUGFja2FnZU5hbWUgPSAiN3ppcC43emlwIgokU2NvcGUgPSAibWFjaGluZSIKIyRTY29wZSA9ICJ1c2VyIgoKIy0tLS0tLS0tLS0gQ29kZSAtLS0tLS0tLS0tIwokUmVzb2x2ZVdpbmdldFBhdGggPSBSZXNvbHZlLVBhdGggIkM6XFByb2dyYW0gRmlsZXNcV2luZG93c0FwcHNcTWljcm9zb2Z0LkRlc2t0b3BBcHBJbnN0YWxsZXJfKl94NjRfXzh3ZWt5YjNkOGJid2UiCiAgICBpZiAoJFJlc29sdmVXaW5nZXRQYXRoKXsKICAgICAgICAgICAkV2luZ2V0UGF0aCA9ICRSZXNvbHZlV2luZ2V0UGF0aFstMV0uUGF0aAogICAgfSBlbHNlIHsKICAgICAgICBXcml0ZS1Ib3N0ICJGYWlsZWQgdG8gZmluZCBXaW5nZXQiCiAgICAgICAgZXhpdCAxCn0KU2V0LUxvY2F0aW9uICR3aW5nZXRwYXRoCiRJbnN0YWxsZWRBcHBzID0gLlx3aW5nZXQuZXhlIGxpc3QgLS1pZCAkUGFja2FnZU5hbWUgLWUgLS1zY29wZSAkU2NvcGUgLS1hY2NlcHQtc291cmNlLWFncmVlbWVudHMgLS1kaXNhYmxlLWludGVyYWN0aXZpdHkgCgppZiAoISgkSW5zdGFsbGVkQXBwc1skSW5zdGFsbGVkQXBwcy5jb3VudC0xXSAtZXEgIk5vIGluc3RhbGxlZCBwYWNrYWdlIGZvdW5kIG1hdGNoaW5nIGlucHV0IGNyaXRlcmlhLiIpKSB7CiAgICBXcml0ZS1PdXRwdXQgIk9LISAtIEZvdW5kIGluc3RhbGwiCiAgICBFeGl0IDAKfQoKV3JpdGUtT3V0cHV0ICJFUlJPUiEgLSBJbnN0YWxsIG5vdCBmb3VuZCIKRXhpdCAx"
+                           }
+                       ],
+    "requirementRules":  [
+
+                         ],
+    "rules":  [
+                  {
+                      "@odata.type":  "#microsoft.graph.win32LobAppPowerShellScriptRule",
+                      "ruleType":  "detection",
+                      "displayName":  null,
+                      "enforceSignatureCheck":  false,
+                      "runAs32Bit":  false,
+                      "runAsAccount":  null,
+                      "scriptContent":  "IyMgUmV2aWV3ZWQgMjAvMDIvMjAyNQojIyBWZXJzaW9uIDEuMAojIyBUZW1wbGF0ZSBSZXZpc2lvbiAxLjAKCgojLS0tLS0tLS0tLSBDb21tb24gU2NyaXB0IFZhcmlhYmxlcyAtLS0tLS0tLS0tIwokUGFja2FnZU5hbWUgPSAiN3ppcC43emlwIgokU2NvcGUgPSAibWFjaGluZSIKIyRTY29wZSA9ICJ1c2VyIgoKIy0tLS0tLS0tLS0gQ29kZSAtLS0tLS0tLS0tIwokUmVzb2x2ZVdpbmdldFBhdGggPSBSZXNvbHZlLVBhdGggIkM6XFByb2dyYW0gRmlsZXNcV2luZG93c0FwcHNcTWljcm9zb2Z0LkRlc2t0b3BBcHBJbnN0YWxsZXJfKl94NjRfXzh3ZWt5YjNkOGJid2UiCiAgICBpZiAoJFJlc29sdmVXaW5nZXRQYXRoKXsKICAgICAgICAgICAkV2luZ2V0UGF0aCA9ICRSZXNvbHZlV2luZ2V0UGF0aFstMV0uUGF0aAogICAgfSBlbHNlIHsKICAgICAgICBXcml0ZS1Ib3N0ICJGYWlsZWQgdG8gZmluZCBXaW5nZXQiCiAgICAgICAgZXhpdCAxCn0KU2V0LUxvY2F0aW9uICR3aW5nZXRwYXRoCiRJbnN0YWxsZWRBcHBzID0gLlx3aW5nZXQuZXhlIGxpc3QgLS1pZCAkUGFja2FnZU5hbWUgLWUgLS1zY29wZSAkU2NvcGUgLS1hY2NlcHQtc291cmNlLWFncmVlbWVudHMgLS1kaXNhYmxlLWludGVyYWN0aXZpdHkgCgppZiAoISgkSW5zdGFsbGVkQXBwc1skSW5zdGFsbGVkQXBwcy5jb3VudC0xXSAtZXEgIk5vIGluc3RhbGxlZCBwYWNrYWdlIGZvdW5kIG1hdGNoaW5nIGlucHV0IGNyaXRlcmlhLiIpKSB7CiAgICBXcml0ZS1PdXRwdXQgIk9LISAtIEZvdW5kIGluc3RhbGwiCiAgICBFeGl0IDAKfQoKV3JpdGUtT3V0cHV0ICJFUlJPUiEgLSBJbnN0YWxsIG5vdCBmb3VuZCIKRXhpdCAx",
+                      "operationType":  "notConfigured",
+                      "operator":  "notConfigured",
+                      "comparisonValue":  null
+                  }
+              ],
+    "installExperience":  {
+                              "runAsAccount":  "system",
+                              "maxRunTimeInMinutes":  10,
+                              "deviceRestartBehavior":  "allow"
+                          },
+    "returnCodes":  [
+                        {
+                            "returnCode":  0,
+                            "type":  "success"
+                        },
+                        {
+                            "returnCode":  1707,
+                            "type":  "success"
+                        },
+                        {
+                            "returnCode":  3010,
+                            "type":  "softReboot"
+                        },
+                        {
+                            "returnCode":  1641,
+                            "type":  "hardReboot"
+                        },
+                        {
+                            "returnCode":  1618,
+                            "type":  "retry"
+                        }
+                    ],
+    "categories":  [
+                       {
+                           "id":  "046e0b16-76ce-4b49-bf1b-1cc5bd94fb47",
+                           "displayName":  "Data Management",
+                           "lastModifiedDateTime":  "0001-01-01T00:00:00Z"
+                       }
+                   ],
+    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps(\u00271cb1bbd5-bc61-4b91-96f4-c7e4aaa03cfc\u0027)/microsoft.graph.win32LobApp/assignments",
+    "assignments":  [
+
+                    ]
+}

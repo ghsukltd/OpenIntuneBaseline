@@ -1,16 +1,16 @@
 {
     "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations(assignments())/$entity",
     "@odata.type":  "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
-    "@odata.id":  "deviceManagement/deviceEnrollmentConfigurations(\u00277873cfdf-dd15-428a-a16c-7556bf2e6fe7_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)",
-    "@odata.editLink":  "deviceManagement/deviceEnrollmentConfigurations(\u00277873cfdf-dd15-428a-a16c-7556bf2e6fe7_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
-    "id":  "7873cfdf-dd15-428a-a16c-7556bf2e6fe7_DefaultWindows10EnrollmentCompletionPageConfiguration",
+    "@odata.id":  "deviceManagement/deviceEnrollmentConfigurations(\u00279c87a45f-ea3f-4a4f-9a11-471772f5aa8f_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)",
+    "@odata.editLink":  "deviceManagement/deviceEnrollmentConfigurations(\u00279c87a45f-ea3f-4a4f-9a11-471772f5aa8f_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
+    "id":  "9c87a45f-ea3f-4a4f-9a11-471772f5aa8f_DefaultWindows10EnrollmentCompletionPageConfiguration",
     "displayName":  "All users and all devices",
     "description":  "This is the default enrollment status screen configuration applied with the lowest priority to all users and all devices regardless of group membership.",
     "priority":  0,
     "createdDateTime@odata.type":  "#DateTimeOffset",
     "createdDateTime":  "0001-01-01T00:00:00Z",
     "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
-    "lastModifiedDateTime":  "2024-10-31T16:41:58Z",
+    "lastModifiedDateTime":  "2025-05-28T08:34:38Z",
     "version":  0,
     "roleScopeTagIds@odata.type":  "#Collection(String)",
     "roleScopeTagIds":  [
@@ -19,29 +19,29 @@
     "deviceEnrollmentConfigurationType@odata.type":  "#microsoft.graph.deviceEnrollmentConfigurationType",
     "deviceEnrollmentConfigurationType":  "windows10EnrollmentCompletionPageConfiguration",
     "showInstallationProgress":  true,
-    "blockDeviceSetupRetryByUser":  true,
+    "blockDeviceSetupRetryByUser":  false,
     "allowDeviceResetOnInstallFailure":  false,
     "allowLogCollectionOnInstallFailure":  true,
     "customErrorMessage":  "Setup could not be completed within 15 minutes. Please try again or contact your helpdesk for help.",
-    "installProgressTimeoutInMinutes":  15,
-    "allowDeviceUseOnInstallFailure":  false,
+    "installProgressTimeoutInMinutes":  5,
+    "allowDeviceUseOnInstallFailure":  true,
     "selectedMobileAppIds@odata.type":  "#Collection(String)",
     "selectedMobileAppIds":  [
 
                              ],
     "allowNonBlockingAppInstallation":  false,
     "installQualityUpdates":  false,
-    "trackInstallProgressForAutopilotOnly":  true,
-    "disableUserStatusTrackingAfterFirstUser":  true,
-    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations(\u00277873cfdf-dd15-428a-a16c-7556bf2e6fe7_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.windows10EnrollmentCompletionPageConfiguration/assignments",
-    "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/deviceEnrollmentConfigurations(\u00277873cfdf-dd15-428a-a16c-7556bf2e6fe7_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.windows10EnrollmentCompletionPageConfiguration/assignments/$ref",
-    "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/deviceEnrollmentConfigurations(\u00277873cfdf-dd15-428a-a16c-7556bf2e6fe7_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.windows10EnrollmentCompletionPageConfiguration/assignments",
+    "trackInstallProgressForAutopilotOnly":  false,
+    "disableUserStatusTrackingAfterFirstUser":  false,
+    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceEnrollmentConfigurations(\u00279c87a45f-ea3f-4a4f-9a11-471772f5aa8f_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.windows10EnrollmentCompletionPageConfiguration/assignments",
+    "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/deviceEnrollmentConfigurations(\u00279c87a45f-ea3f-4a4f-9a11-471772f5aa8f_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.windows10EnrollmentCompletionPageConfiguration/assignments/$ref",
+    "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/deviceEnrollmentConfigurations(\u00279c87a45f-ea3f-4a4f-9a11-471772f5aa8f_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.windows10EnrollmentCompletionPageConfiguration/assignments",
     "#microsoft.graph.assign":  {
                                     "title":  "microsoft.graph.assign",
-                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/deviceEnrollmentConfigurations(\u00277873cfdf-dd15-428a-a16c-7556bf2e6fe7_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.deviceEnrollmentConfiguration/microsoft.graph.assign"
+                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/deviceEnrollmentConfigurations(\u00279c87a45f-ea3f-4a4f-9a11-471772f5aa8f_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.deviceEnrollmentConfiguration/microsoft.graph.assign"
                                 },
     "#microsoft.graph.setPriority":  {
                                          "title":  "microsoft.graph.setPriority",
-                                         "target":  "https://graph.microsoft.com/beta/deviceManagement/deviceEnrollmentConfigurations(\u00277873cfdf-dd15-428a-a16c-7556bf2e6fe7_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.deviceEnrollmentConfiguration/microsoft.graph.setPriority"
+                                         "target":  "https://graph.microsoft.com/beta/deviceManagement/deviceEnrollmentConfigurations(\u00279c87a45f-ea3f-4a4f-9a11-471772f5aa8f_DefaultWindows10EnrollmentCompletionPageConfiguration\u0027)/microsoft.graph.deviceEnrollmentConfiguration/microsoft.graph.setPriority"
                                      }
 }

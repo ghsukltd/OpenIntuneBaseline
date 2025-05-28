@@ -1,0 +1,62 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles(assignments())/$entity",
+    "@odata.type":  "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+    "@odata.id":  "deviceManagement/windowsAutopilotDeploymentProfiles(\u002772376d58-ea4f-407e-97f4-d7df01d33d9a\u0027)",
+    "@odata.editLink":  "deviceManagement/windowsAutopilotDeploymentProfiles(\u002772376d58-ea4f-407e-97f4-d7df01d33d9a\u0027)/microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+    "id":  "72376d58-ea4f-407e-97f4-d7df01d33d9a",
+    "displayName":  "Self Deploying AP Enrolment",
+    "description":  "",
+    "language":  "en-GB",
+    "locale":  "en-GB",
+    "createdDateTime@odata.type":  "#DateTimeOffset",
+    "createdDateTime":  "2025-05-28T08:25:22.2509459Z",
+    "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
+    "lastModifiedDateTime":  "2025-05-28T08:25:22.2509459Z",
+    "enrollmentStatusScreenSettings":  null,
+    "extractHardwareHash":  true,
+    "hardwareHashExtractionEnabled":  true,
+    "deviceNameTemplate":  "%SERIAL%",
+    "deviceType@odata.type":  "#microsoft.graph.windowsAutopilotDeviceType",
+    "deviceType":  "windowsPc",
+    "enableWhiteGlove":  false,
+    "preprovisioningAllowed":  false,
+    "roleScopeTagIds@odata.type":  "#Collection(String)",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "managementServiceAppId":  null,
+    "outOfBoxExperienceSettings":  {
+                                       "@odata.type":  "#microsoft.graph.outOfBoxExperienceSettings",
+                                       "hidePrivacySettings":  true,
+                                       "hideEULA":  true,
+                                       "userType@odata.type":  "#microsoft.graph.windowsUserType",
+                                       "userType":  "standard",
+                                       "deviceUsageType@odata.type":  "#microsoft.graph.windowsDeviceUsageType",
+                                       "deviceUsageType":  "shared",
+                                       "skipKeyboardSelectionPage":  true,
+                                       "hideEscapeLink":  true
+                                   },
+    "outOfBoxExperienceSetting":  {
+                                      "@odata.type":  "#microsoft.graph.outOfBoxExperienceSetting",
+                                      "privacySettingsHidden":  true,
+                                      "eulaHidden":  true,
+                                      "userType@odata.type":  "#microsoft.graph.windowsUserType",
+                                      "userType":  "standard",
+                                      "deviceUsageType@odata.type":  "#microsoft.graph.windowsDeviceUsageType",
+                                      "deviceUsageType":  "shared",
+                                      "keyboardSelectionPageSkipped":  true,
+                                      "escapeLinkHidden":  true
+                                  },
+    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsAutopilotDeploymentProfiles(\u002772376d58-ea4f-407e-97f4-d7df01d33d9a\u0027)/microsoft.graph.azureADWindowsAutopilotDeploymentProfile/assignments",
+    "assignments@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/windowsAutopilotDeploymentProfiles(\u002772376d58-ea4f-407e-97f4-d7df01d33d9a\u0027)/microsoft.graph.azureADWindowsAutopilotDeploymentProfile/assignments/$ref",
+    "assignments@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/windowsAutopilotDeploymentProfiles(\u002772376d58-ea4f-407e-97f4-d7df01d33d9a\u0027)/microsoft.graph.azureADWindowsAutopilotDeploymentProfile/assignments",
+    "assignments":  [
+
+                    ],
+    "assignedDevices@odata.associationLink":  "https://graph.microsoft.com/beta/deviceManagement/windowsAutopilotDeploymentProfiles(\u002772376d58-ea4f-407e-97f4-d7df01d33d9a\u0027)/microsoft.graph.azureADWindowsAutopilotDeploymentProfile/assignedDevices/$ref",
+    "assignedDevices@odata.navigationLink":  "https://graph.microsoft.com/beta/deviceManagement/windowsAutopilotDeploymentProfiles(\u002772376d58-ea4f-407e-97f4-d7df01d33d9a\u0027)/microsoft.graph.azureADWindowsAutopilotDeploymentProfile/assignedDevices",
+    "#microsoft.graph.assign":  {
+                                    "title":  "microsoft.graph.assign",
+                                    "target":  "https://graph.microsoft.com/beta/deviceManagement/windowsAutopilotDeploymentProfiles(\u002772376d58-ea4f-407e-97f4-d7df01d33d9a\u0027)/microsoft.graph.windowsAutopilotDeploymentProfile/microsoft.graph.assign"
+                                }
+}

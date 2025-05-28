@@ -1,0 +1,124 @@
+{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps(categories(),assignments())/$entity",
+    "@odata.type":  "#microsoft.graph.win32LobApp",
+    "id":  "7ae71f5a-8c6b-47bc-881c-c11e4b4dd26c",
+    "displayName":  "Dell Command | Update",
+    "description":  "Dell Command | Update (DCU) is a stand-alone application for commercial client computers that provides updates for system software Dell releases. This application simplifies the BIOS, firmware, driver, and application update experience for Dell commercial client hardware. This application can also be used to install drivers after the operating system and network drivers are installed based on the computer identity.",
+    "publisher":  "Dell Inc.",
+    "createdDateTime":  "2025-05-28T10:11:39.7313175Z",
+    "lastModifiedDateTime":  "2025-05-28T10:11:39.7313175Z",
+    "isFeatured":  false,
+    "privacyInformationUrl":  "https://www.dell.com/support/home/en-uk",
+    "informationUrl":  "https://www.dell.com/support/kbdoc/en-uk/000177325/dell-command-update",
+    "owner":  "Dell Inc.",
+    "developer":  "Dell Inc.",
+    "notes":  "",
+    "uploadState":  1,
+    "publishingState":  "published",
+    "isAssigned":  false,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "dependentAppCount":  1,
+    "supersedingAppCount":  0,
+    "supersededAppCount":  0,
+    "committedContentVersion":  "1",
+    "fileName":  "Winget_DellCommandUpdate_v1.0.intunewin",
+    "size":  6192,
+    "installCommandLine":  "%WINDIR%\\SysNative\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\Install.ps1",
+    "uninstallCommandLine":  "%WINDIR%\\SysNative\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\Uninstall.ps1",
+    "applicableArchitectures":  "x86,x64",
+    "allowedArchitectures":  null,
+    "minimumFreeDiskSpaceInMB":  160,
+    "minimumMemoryInMB":  1024,
+    "minimumNumberOfProcessors":  null,
+    "minimumCpuSpeedInMHz":  null,
+    "msiInformation":  null,
+    "setupFilePath":  "Install.ps1",
+    "minimumSupportedWindowsRelease":  "1607",
+    "displayVersion":  "Winget",
+    "allowAvailableUninstall":  true,
+    "largeIcon":  {
+                      "type":  "image/png",
+                      "value":  "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"
+                  },
+    "minimumSupportedOperatingSystem":  {
+                                            "v8_0":  false,
+                                            "v8_1":  false,
+                                            "v10_0":  false,
+                                            "v10_1607":  true,
+                                            "v10_1703":  false,
+                                            "v10_1709":  false,
+                                            "v10_1803":  false,
+                                            "v10_1809":  false,
+                                            "v10_1903":  false,
+                                            "v10_1909":  false,
+                                            "v10_2004":  false,
+                                            "v10_2H20":  false,
+                                            "v10_21H1":  false
+                                        },
+    "detectionRules":  [
+                           {
+                               "@odata.type":  "#microsoft.graph.win32LobAppPowerShellScriptDetection",
+                               "enforceSignatureCheck":  false,
+                               "runAs32Bit":  false,
+                               "scriptContent":  "IyMgUmV2aWV3ZWQgMjAvMDIvMjAyNQojIyBWZXJzaW9uIDEuMAojIyBUZW1wbGF0ZSBSZXZpc2lvbiAxLjAKCgojLS0tLS0tLS0tLSBDb21tb24gU2NyaXB0IFZhcmlhYmxlcyAtLS0tLS0tLS0tIwokUGFja2FnZU5hbWUgPSAiRGVsbC5Db21tYW5kVXBkYXRlIgokU2NvcGUgPSAibWFjaGluZSIKCiMtLS0tLS0tLS0tIENvZGUgLS0tLS0tLS0tLSMKJFJlc29sdmVXaW5nZXRQYXRoID0gUmVzb2x2ZS1QYXRoICJDOlxQcm9ncmFtIEZpbGVzXFdpbmRvd3NBcHBzXE1pY3Jvc29mdC5EZXNrdG9wQXBwSW5zdGFsbGVyXypfeDY0X184d2VreWIzZDhiYndlIgogICAgaWYgKCRSZXNvbHZlV2luZ2V0UGF0aCl7CiAgICAgICAgICAgJFdpbmdldFBhdGggPSAkUmVzb2x2ZVdpbmdldFBhdGhbLTFdLlBhdGgKICAgIH0gZWxzZSB7CiAgICAgICAgV3JpdGUtSG9zdCAiRmFpbGVkIHRvIGZpbmQgV2luZ2V0IgogICAgICAgIGV4aXQgMQp9ClNldC1Mb2NhdGlvbiAkd2luZ2V0cGF0aAokSW5zdGFsbGVkQXBwcyA9IC5cd2luZ2V0LmV4ZSBsaXN0IC0taWQgJFBhY2thZ2VOYW1lIC1lIC0tc2NvcGUgJFNjb3BlIC0tYWNjZXB0LXNvdXJjZS1hZ3JlZW1lbnRzIC0tZGlzYWJsZS1pbnRlcmFjdGl2aXR5IAoKaWYgKCEoJEluc3RhbGxlZEFwcHNbJEluc3RhbGxlZEFwcHMuY291bnQtMV0gLWVxICJObyBpbnN0YWxsZWQgcGFja2FnZSBmb3VuZCBtYXRjaGluZyBpbnB1dCBjcml0ZXJpYS4iKSkgewogICAgV3JpdGUtT3V0cHV0ICJPSyEgLSBGb3VuZCBpbnN0YWxsIgogICAgRXhpdCAwCn0KCldyaXRlLU91dHB1dCAiRVJST1IhIC0gSW5zdGFsbCBub3QgZm91bmQiCkV4aXQgMQ=="
+                           }
+                       ],
+    "requirementRules":  [
+
+                         ],
+    "rules":  [
+                  {
+                      "@odata.type":  "#microsoft.graph.win32LobAppPowerShellScriptRule",
+                      "ruleType":  "detection",
+                      "displayName":  null,
+                      "enforceSignatureCheck":  false,
+                      "runAs32Bit":  false,
+                      "runAsAccount":  null,
+                      "scriptContent":  "IyMgUmV2aWV3ZWQgMjAvMDIvMjAyNQojIyBWZXJzaW9uIDEuMAojIyBUZW1wbGF0ZSBSZXZpc2lvbiAxLjAKCgojLS0tLS0tLS0tLSBDb21tb24gU2NyaXB0IFZhcmlhYmxlcyAtLS0tLS0tLS0tIwokUGFja2FnZU5hbWUgPSAiRGVsbC5Db21tYW5kVXBkYXRlIgokU2NvcGUgPSAibWFjaGluZSIKCiMtLS0tLS0tLS0tIENvZGUgLS0tLS0tLS0tLSMKJFJlc29sdmVXaW5nZXRQYXRoID0gUmVzb2x2ZS1QYXRoICJDOlxQcm9ncmFtIEZpbGVzXFdpbmRvd3NBcHBzXE1pY3Jvc29mdC5EZXNrdG9wQXBwSW5zdGFsbGVyXypfeDY0X184d2VreWIzZDhiYndlIgogICAgaWYgKCRSZXNvbHZlV2luZ2V0UGF0aCl7CiAgICAgICAgICAgJFdpbmdldFBhdGggPSAkUmVzb2x2ZVdpbmdldFBhdGhbLTFdLlBhdGgKICAgIH0gZWxzZSB7CiAgICAgICAgV3JpdGUtSG9zdCAiRmFpbGVkIHRvIGZpbmQgV2luZ2V0IgogICAgICAgIGV4aXQgMQp9ClNldC1Mb2NhdGlvbiAkd2luZ2V0cGF0aAokSW5zdGFsbGVkQXBwcyA9IC5cd2luZ2V0LmV4ZSBsaXN0IC0taWQgJFBhY2thZ2VOYW1lIC1lIC0tc2NvcGUgJFNjb3BlIC0tYWNjZXB0LXNvdXJjZS1hZ3JlZW1lbnRzIC0tZGlzYWJsZS1pbnRlcmFjdGl2aXR5IAoKaWYgKCEoJEluc3RhbGxlZEFwcHNbJEluc3RhbGxlZEFwcHMuY291bnQtMV0gLWVxICJObyBpbnN0YWxsZWQgcGFja2FnZSBmb3VuZCBtYXRjaGluZyBpbnB1dCBjcml0ZXJpYS4iKSkgewogICAgV3JpdGUtT3V0cHV0ICJPSyEgLSBGb3VuZCBpbnN0YWxsIgogICAgRXhpdCAwCn0KCldyaXRlLU91dHB1dCAiRVJST1IhIC0gSW5zdGFsbCBub3QgZm91bmQiCkV4aXQgMQ==",
+                      "operationType":  "notConfigured",
+                      "operator":  "notConfigured",
+                      "comparisonValue":  null
+                  }
+              ],
+    "installExperience":  {
+                              "runAsAccount":  "system",
+                              "maxRunTimeInMinutes":  15,
+                              "deviceRestartBehavior":  "allow"
+                          },
+    "returnCodes":  [
+                        {
+                            "returnCode":  0,
+                            "type":  "success"
+                        },
+                        {
+                            "returnCode":  1707,
+                            "type":  "success"
+                        },
+                        {
+                            "returnCode":  3010,
+                            "type":  "softReboot"
+                        },
+                        {
+                            "returnCode":  1641,
+                            "type":  "hardReboot"
+                        },
+                        {
+                            "returnCode":  1618,
+                            "type":  "retry"
+                        }
+                    ],
+    "categories":  [
+                       {
+                           "id":  "981deed8-6857-4e78-a50e-c3f61d312737",
+                           "displayName":  "Computer Management",
+                           "lastModifiedDateTime":  "0001-01-01T00:00:00Z"
+                       }
+                   ],
+    "assignments@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceAppManagement/mobileApps(\u00277ae71f5a-8c6b-47bc-881c-c11e4b4dd26c\u0027)/microsoft.graph.win32LobApp/assignments",
+    "assignments":  [
+
+                    ],
+    "#CustomRefDependency":  "Microsoft .NET Desktop Runtime 8|!|Winget|!|b1338a7a-4112-4155-b4ec-5aa1aa15331e|!|autoInstall"
+}
