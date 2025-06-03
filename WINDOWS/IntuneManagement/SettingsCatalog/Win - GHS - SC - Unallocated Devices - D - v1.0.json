@@ -9,7 +9,7 @@
     "description":  "Alert users that their device(s) are not in a group for device settings and apps to apply.",
     "lastModifiedDateTime@odata.type":  "#DateTimeOffset",
     "lastModifiedDateTime":  "2025-05-28T09:45:32.0187644Z",
-    "name":  "Win - OIB - SC - Unallocated Devices - D - v1.0",
+    "name":  "Win - GHS - SC - Unallocated Devices - D - v1.0",
     "platforms@odata.type":  "#microsoft.graph.deviceManagementConfigurationPlatforms",
     "platforms":  "windows10",
     "priorityMetaData":  null,
